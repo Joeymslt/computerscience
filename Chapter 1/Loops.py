@@ -57,3 +57,28 @@
 #print("Spaces: ",spaceCount)
 #print("Words: ",wordCount)
 
+
+#task 1
+#for y in range(1,11):
+#    print(y)
+
+#counter = 1
+#while(counter<11):
+#    print(counter)
+#    counter+=1
+#print(counter)
+
+#task2
+#numput = (int(input("Enter a number: ")))
+#for y in range (1,numput,2):
+#   print(y)
+
+#task3
+sentence = input("Enter a sentence: ")
+vCount = 0
+counter = 0
+for character in sentence:
+    if character == "A,E,I,O,U":
+        counter+=1
+print(counter)
+        
