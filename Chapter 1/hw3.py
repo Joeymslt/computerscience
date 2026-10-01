@@ -53,12 +53,3 @@ for i in range(0,x):
 print("The initial list of values is:", numbers) 
 if len(numbers) == 0: 
     print("Error, the list is empty. Cannot compute median") 
-    numbers.sort() 
-    print("The sorted list of values is:", numbers) 
-    if x%2 == 1: 
-        median = numbers[x//2] 
-    elif x%2 == 0: 
-        median1 = numbers[x//2] 
-        median2 = numbers[(x//2-1)] 
-        median = (median1+median2)/2 
-    print("The median is", median) 
